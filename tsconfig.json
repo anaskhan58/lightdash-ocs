@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "noUncheckedIndexedAccess": false, // Disabled until we fix all tests in all packages
+        "useUnknownInCatchVariables": true,
+        "noImplicitAny": true
+    },
+    "references": [
+        {
+            "path": "./packages/frontend"
+        },
+        {
+            "path": "./packages/backend"
+        },
+        {
+            "path": "./packages/common"
+        },
+        {
+            "path": "./packages/cli"
+        },
+        {
+            "path": "./packages/warehouses"
+        },
+        {
+            "path": "./packages/formula"
+        },
+        {
+            "path": "./packages/formula-tests"
+        },
+    ],
+    "exclude": [
+        "dist",
+        "build",
+        "node_modules"
+    ]
+}
